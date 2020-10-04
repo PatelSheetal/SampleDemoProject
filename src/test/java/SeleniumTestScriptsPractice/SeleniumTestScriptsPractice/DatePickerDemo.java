@@ -45,6 +45,7 @@ public class DatePickerDemo {
 		JavascriptExecutor js=(JavascriptExecutor)driver;
 		js.executeScript("arguments[0].setAttribute('value','"+date+"')",element);
 		 
+		System.out.println("Test");
 
 	}
 
